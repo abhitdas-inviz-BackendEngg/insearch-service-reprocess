@@ -1,0 +1,13 @@
+invalid_reprocess_indexer:
+  source:
+    documentdb:
+      host: "insearch-dev.cluster-ckxnylp9tpfb.ap-south-1.docdb.amazonaws.com"
+      port: 27017
+      db_name: "search_admin_dev"
+      source_collection: "index_docs_exception_test"
+      user: "test"
+      pass: "test1234"
+  sqs:
+    region: "ap-south-1"
+    endpoint: "https://sqs.ap-south-1.amazonaws.com"
+    queue_url: "https://sqs.ap-south-1.amazonaws.com/032560443992/insearch-qa2-catalog-indexer-q"

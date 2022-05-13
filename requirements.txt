@@ -1,0 +1,5 @@
+aiobotocore==1.1.1
+boto3==1.14.44
+loguru==0.5.3
+PyYAML==6.0
+motor==2.2.0
